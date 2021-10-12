@@ -108,7 +108,7 @@ include_once 'header.php';
             <tr>
                 <th>
                      <button type="submit" class="submit">
-                        <a href="pop.html">Submit</a></button>
+                        <a href="pop.php">Submit</a></button>
                         
                 </th>
             </tr>
