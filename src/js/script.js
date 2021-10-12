@@ -30,9 +30,9 @@ $(document).ready(function() {
 		if(complete) {
 
 			console.log("Complete Form");
-			$("#part-of-story-form form button").php("All Done!").attr('disabled', true);
+			$("#part-of-story-form form button").html("All Done!").attr('disabled', true);
 
-			$(".name").php(firstName);
+			$(".name").html(firstName);
 
 			var age = $("input[name=age]:checked").val();
 			if(typeof age != "undefined" && age != "") {
@@ -42,7 +42,7 @@ $(document).ready(function() {
 		}
 		else {
 			console.log("Incomplete Form");
-			$("#part-of-story-form form button").php("Try Again");
+			$("#part-of-story-form form button").html("Try Again");
 		}
 
 		event.preventDefault();
@@ -80,7 +80,7 @@ $(document).ready(function() {
 		}
 
 		//alert(message);
-		$("#simple-guessing-game .computer-guess").php(message).css("color", messageColour);
+		$("#simple-guessing-game .computer-guess").html(message).css("color", messageColour);
 
 		event.preventDefault();
 
@@ -89,6 +89,7 @@ $(document).ready(function() {
 	$("#simple-guessing-game form").submit(runGame);
 	
 	$("figure").scrollClass();
+
 
 
 });
