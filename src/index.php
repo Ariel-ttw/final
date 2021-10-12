@@ -1,9 +1,8 @@
 <?php 
 include_once 'header.php';
 ?>
-
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,19 +14,19 @@ include_once 'header.php';
 <body>
 
     <!--slide-->
-     <div id="slide">
+    <div id="slide">
         <section id="slideshow">
             <article class="cycle-slideshow">
 
-                <img src="images/slide1.jpg" alt="aurora slide">
-                <img src="images/slide2.jpg" alt="aurora slide">
-                <img src="images/slide3.jpg" alt="aurora slide">
-                <img src="images/slide4.jpg" alt="aurora slide">
+                <img src="image/slide1.jpg" alt="aurora slide">
+                <img src="image/slide2.jpg" alt="aurora slide">
+                <img src="image/slide3.jpg" alt="aurora slide">
+                <img src="image/slide4.jpg" alt="aurora slide">
 
             </article>
         </section>
     </div>
-    </div> 
+    </div>
 
     <!--activity-->
     <div id="activity">
@@ -210,4 +209,4 @@ include_once 'header.php';
     });
 </script>
 
-</php>
+</html>
