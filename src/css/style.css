@@ -126,7 +126,7 @@ a{
 /*detail design*/
 #detail{
     height: 900px;
-    background-image: url("/Users/mac/Desktop/web design/image/Azur Lane.jpg");
+    background-image: url("../images/Azur Lane.jpg");
     padding: 20px;
 }
 #detail .detail-main{
