@@ -20,7 +20,7 @@ include_once 'header.php';
 
 <div id="popup1" class="overlay">
 	<div class="popup">
-		<h2>success</h2>
+		<h2>Success</h2>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
 			Thank to for your booking, your booking information will send by email.
