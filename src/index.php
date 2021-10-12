@@ -18,10 +18,10 @@ include_once 'header.php';
         <section id="slideshow">
             <article class="cycle-slideshow">
 
-                <img src="image/slide1.jpg" alt="aurora slide">
-                <img src="image/slide2.jpg" alt="aurora slide">
-                <img src="image/slide3.jpg" alt="aurora slide">
-                <img src="image/slide4.jpg" alt="aurora slide">
+                <img src="images/slide1.jpg" alt="aurora slide">
+                <img src="images/slide2.jpg" alt="aurora slide">
+                <img src="images/slide3.jpg" alt="aurora slide">
+                <img src="images/slide4.jpg" alt="aurora slide">
 
             </article>
         </section>
