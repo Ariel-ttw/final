@@ -94,3 +94,16 @@ body {
       width: 70%;
     }
   }
+  table{
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    line-height: 3em;
+    table-layout: auto;
+  }
+  th{
+    width: 100px;
+  }
+  td{
+    width: 120px;
+  }
