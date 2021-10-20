@@ -1,5 +1,6 @@
 <?php 
 include_once 'header.php';
+require_once 'includes/dbh.inc.php';
 ?>
 
 <!DOCTYPE php>
@@ -14,6 +15,38 @@ include_once 'header.php';
 
 <body>
 <h1>Confirm your booking require</h1>
+<?php 
+	$sql = "SELECT * FROM booking;";
+	echo '
+	<table>
+		<tr>
+			<th> name </th>
+			<th> email </th>
+			<th> phone  </th>
+			<th> date  </th>
+		</tr>
+	</table>';
+	$result = mysqli_query($conn, $sql);
+	$resultCheck = mysqli_num_rows($result);
+	if ($resultCheck > 0 ) {
+		while($row =mysqli_fetch_assoc($result)){
+			$name   = $row['name'];
+			$email  = $row['email'];
+			$phone   = $row['phone'];
+			$date    = $row['date'];
+			echo '<table> 
+                        <tr>
+                            <td>'.$name.'</td> 
+                            <td>'.$email.'</td> 
+                            <td>'.$phone.'</td> 
+                            <td>'.$date.'</td> 
+                        </tr>
+                    </table>';
+
+		}
+	}
+	?>
+
 <div class="box">
 	<a class="button" href="#popup1">confirm booking</a>
 </div>
