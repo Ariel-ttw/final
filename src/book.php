@@ -14,7 +14,7 @@ include_once 'header.php';
 <body>
 
     <!--contact us-->
-    <form action="">
+    <form action="includes/book.inc.php" method = 'post'>
         <table>
             <tr>
                 <th>
@@ -32,28 +32,28 @@ include_once 'header.php';
                 <td>Your Name :</td>
             </tr>
             <tr>
-                <td><input type="text"></td>
+                <td><input type="text" name = "name"></td>
             </tr>
 
             <tr>
                 <td>Your e-mail :</td>
             </tr>
             <tr>
-                <td><input type="text"></td>
+                <td><input type="text" name = "email"></td>
             </tr>
 
             <tr>
                 <td>Your phone number : </td>
             </tr>
             <tr>
-                <td><input type="text"></td>
+                <td><input type="text" name = "phoneNumber"></td>
             </tr>
 
             <tr>
                 <td>Scheduled time (year/ month/ day) : </td>
             </tr>
             <tr>
-                <td><input type="text"></td>
+                <td><p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2021-10-20T15:00"></p></td>
             </tr>
 
             <tr>
@@ -107,8 +107,9 @@ include_once 'header.php';
             </div>
             <tr>
                 <th>
-                     <button type="submit" class="submit">
-                        <a href="pop.php">Submit</a></button>
+                     <button type="submit" class="submit" name = "submit">
+                        <a href="pop.php">Submit</a>
+                    </button>
                         
                 </th>
             </tr>
@@ -162,14 +163,14 @@ include_once 'header.php';
 
 </body>
 
-<script src="js/jquery-3.5.1.min.js"></script>
+<!-- <script src="js/jquery-3.5.1.min.js"></script>
 <script>
     $(document).ready(function () {
         $("button").click(function () {
             $("#text").empty();
         });
     });
-</script>
+</script> -->
 
 </php>
     
