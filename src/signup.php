@@ -16,7 +16,7 @@
 <body>
 
     <section class="signup-booking">
-        <p>Sign up and start sharing!</p>
+        <p>Sign up </p>
         <hr>
         <div class="signup-container">
             <form id="signup-form" action='includes/signup.inc.php' method='post'>
